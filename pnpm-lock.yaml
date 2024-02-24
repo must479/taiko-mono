@@ -90,8 +90,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1(typescript@5.3.3)
       abitype:
-        specifier: ^0.8.11
-        version: 0.8.11(typescript@5.3.3)
+        specifier: ^1.0.0
+        version: 1.0.0(typescript@5.3.3)(zod@3.22.4)
       ajv:
         specifier: ^8.12.0
         version: 8.12.0
@@ -6582,13 +6582,6 @@ packages:
   /@web3modal/siwe@4.0.9(typescript@5.3.3):
     resolution: {integrity: sha512-OB4z/lTHCAm3bjiuyPz4uBib46YU6kzp4eeSnAWZzAHj9mQnB4DZOoCdFQvFn+N1n3CzTZaMxz3CYjYn2A+Qhw==}
     requiresBuild: true
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      vue:
-        optional: true
     dependencies:
       '@web3modal/core': 4.0.9(react@18.2.0)
       '@web3modal/scaffold-utils': 4.0.9(react@18.2.0)
@@ -6615,15 +6608,6 @@ packages:
       '@wagmi/connectors': '>=4.0.0'
       '@wagmi/core': '>=2.0.0'
       viem: '>=2.0.0'
-    peerDependenciesMeta:
-      '@web3modal/siwe':
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      vue:
-        optional: true
     dependencies:
       '@wagmi/connectors': 4.1.14(@wagmi/core@2.6.5)(react-dom@18.2.0)(react-native@0.73.4)(react@18.2.0)(typescript@5.3.3)(viem@2.7.11)
       '@wagmi/core': 2.6.5(react@18.2.0)(typescript@5.3.3)(viem@2.7.11)
@@ -6672,18 +6656,6 @@ packages:
 
   /abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
-    dev: true
-
-  /abitype@0.8.11(typescript@5.3.3):
-    resolution: {integrity: sha512-bM4v2dKvX08sZ9IU38IN5BKmN+ZkOSd2oI4a9f0ejHYZQYV6cDr7j+d95ga0z2XHG36Y4jzoG5Z7qDqxp7fi/A==}
-    peerDependencies:
-      typescript: '>=5.0.4'
-      zod: ^3 >=3.19.1
-    peerDependenciesMeta:
-      zod:
-        optional: true
-    dependencies:
-      typescript: 5.3.3
     dev: true
 
   /abitype@0.8.7(typescript@5.3.3):

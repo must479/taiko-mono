@@ -2,7 +2,7 @@
 const ADDRESS_LENGTH = 40;
 
 module.exports = {
-  contractOwner: "0x2D815240A61731c75Fa01b2793E1D3eD09F289d0",
+  contractOwner: "0xD575856610bD93A9f1AD89bE4a17E90A7bB331C5",
   l1ChainId: 1,
   chainId: 167,
   seedAccounts: [
@@ -10,7 +10,7 @@ module.exports = {
       "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266": 1024,
     },
     {
-      "0x2D815240A61731c75Fa01b2793E1D3eD09F289d0": 1024,
+      "0x15921bA11b23ae1062B7b5E33d11aE59D0C81AeB": 1024,
     },
     {
       "0xDD39d8bf7D3187817C9a5e83032d1a70B3AF1C4E": 1024,
@@ -73,10 +73,10 @@ module.exports = {
       "0x11e8F3eA3C6FcF12EcfF2722d75CEFC539c51a1C": 1024,
     },
     {
-      "0x9eAF5590f2c84912A08de97FA28d0529361Deb9E": 1024,
+      "0x680bb341FEf9aa71d051240C955ee63353584f34": 1024,
     },
     {
-      "0x1003ff39d25F2Ab16dBCc18EcE05a9B6154f65F4": 1024,
+      "0x4242424242424242424242424242424242424242": 1024,
     },
   ],
   get contractAddresses() {

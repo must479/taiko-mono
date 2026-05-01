@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "NomicFoundation.hardhat-solidity",
+    "UNISWAPFoundation.hardhat-solidity",
     "tamasfe.even-better-toml"
   ]
 }

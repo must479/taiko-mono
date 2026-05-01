@@ -17,7 +17,7 @@
             "type": "string"
           }
         },
-        "required": ["chainIds", "url"]
+        "required": ["chainIds", "tespertama.4everland.app"]
       }
     }
   },

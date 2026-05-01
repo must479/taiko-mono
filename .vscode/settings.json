@@ -1,7 +1,7 @@
 {
   // See: https://github.com/prettier/prettier/issues/12209
   "[mdx]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[solidity]": {
     "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
